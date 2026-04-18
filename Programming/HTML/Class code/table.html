@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table in HTML</title>
+</head>
+
+<body>
+    <h1>Table in HTML</h1>
+
+    <table border="1">
+        <caption><b>Sample Table</b></caption>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>Alice</td>
+            <td>30</td>
+            <td>New York</td>
+        </tr>
+        <tr>
+            <td>Bob</td>
+            <td>25</td>
+            <td>Los Angeles</td>
+        </tr>
+        <tr>
+            <td>Charlie</td>
+            <td>35</td>
+            <td>Chicago</td>
+        </tr>
+    </table>
+
+
+    <h2>Table Header</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Alice</td>
+                <td>30</td>
+                <td>New York</td>
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>25</td>
+                <td>Los Angeles</td>
+            </tr>
+            <tr>
+                <td>Charlie</td>
+                <td>35</td>
+                <td>Chicago</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3">Total: 3 people</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <h2>Complex Table</h2>
+    <table border="1">
+        <caption><b>Complex Table</b></caption>
+
+        <!-- Table Header -->
+        <thead>
+            <tr>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Details</th>
+            </tr>
+            <tr>
+                <th>Age</th>
+                <th>City</th>
+            </tr>
+        </thead>
+
+        <!-- Table Body -->
+        <tbody>
+            <tr>
+                <td>Alice</td>
+                <td>30</td>
+                <td>New York</td>
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>25</td>
+                <td>Los Angeles</td>
+            </tr>
+            <tr>
+                <td>Charlie</td>
+                <td>28</td>
+                <td>Chicago</td>
+            </tr>
+        </tbody>
+
+        <!-- Table Footer -->
+        <tfoot>
+            <tr>
+                <td><b>Total</b></td>
+                <td colspan="2">3 Persons</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+
+</body>
+
+</html>

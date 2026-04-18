@@ -1,0 +1,208 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(3);
+    transition-delay: 2ms; */
+
+    position: absolute;
+    top: 200px;
+    left: 200px;
+
+    transition: all 2s steps(3);
+}
+
+
+
+div:hover {
+    background-color: lightblue;
+    color: aquamarine;
+    font-size: 20px;
+
+    transform: scale(2);
+}
+
+div:active {
+    background-color: rgb(120, 6, 54);
+    color: rgb(159, 172, 19)
+}
+
+
+#b1 {
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(3);
+    transition-delay: 2ms; */
+
+    position: absolute;
+    top: 600px;
+    left: 200px;
+
+    transition: all 2s steps(3);
+}
+
+
+
+#b1:hover {
+    background-color: lightblue;
+    color: aquamarine;
+    font-size: 20px;
+
+    transform: translateX(100px);
+}
+
+#b1:active {
+    background-color: rgb(120, 6, 54);
+    color: rgb(159, 172, 19)
+}
+
+
+#b2 {
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(3);
+    transition-delay: 2ms; */
+
+    position: absolute;
+    top: 800px;
+    left: 200px;
+
+
+    animation-name: colorAnimate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count: 3;
+
+}
+
+
+@keyframes colorAnimate {
+    from {
+        background-color: beige;
+    }
+
+    to {
+        background-color: aqua;
+    }
+}
+
+
+#b3 {
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(3);
+    transition-delay: 2ms; */
+
+    position: absolute;
+    top: 1000px;
+    left: 200px;
+
+    border-radius: 50%;
+
+
+    /* animation-name:pixShift;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+    animation: pixShift 3s ease-in 0s infinite alternate;
+
+}
+
+
+@keyframes pixShift {
+    from {
+        left: 0px;
+        background-color: beige;
+    }
+
+    to {
+        left: 50px;
+        background-color: brown;
+        color:blue;
+    }
+}
+
+#b4 {
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(3);
+    transition-delay: 2ms; */
+
+    position: absolute;
+    top: 1200px;
+    left: 200px;
+
+    border-radius: 50%;
+
+
+    /* animation-name:pixShift;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+    animation: newani 3s ease-in 0s infinite alternate;
+
+}
+
+
+@keyframes newani {
+    0% {
+        left: 0px;
+        background-color: beige;
+    }
+
+    50%{
+        left:50px;
+         background-color: rgb(41, 135, 228);
+         color:blueviolet
+    }
+
+    100% {
+        left: 120px;
+        background-color: rgb(112, 5, 18);
+        color:rgb(167, 180, 18);
+    }
+}

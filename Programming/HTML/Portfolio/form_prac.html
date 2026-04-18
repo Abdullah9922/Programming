@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in HTML</title>
+</head>
+<body>
+    <h1>Form in HTML</h1>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <br>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Full Name" required>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+        <br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="0" max="120" required>
+        <br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br>
+
+        <label for="color">Favorite Color:</label>
+        <input type="color" id="color" name="color" value="#ff0000">
+        <br>
+    </fieldset>
+    <br>
+
+
+    <fieldset>
+        <legend>Account Information</legend>
+        <br>
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Username" required>
+        <br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Password" required>
+        <br>
+    </fieldset>
+    <br>
+
+
+    <fieldset>
+        <legend>Preferences</legend>
+        <br>
+
+        <label for="interest">Interests:</label>
+        <input type="checkbox" id="interest_gaming" name="interest" value="gaming">
+        <label for="interest_gaming">Gaming</label>
+        <input type="checkbox" id="interest_sports" name="interest" value="sports">
+        <label for="interest_sports">Sports</label>
+        <input type="checkbox" id="interest_music" name="interest" value="music">
+        <label for="interest_music">Music</label>
+        <br>
+
+        <label for="contact_ref">Preferred Contact Method:</label>
+        <input type="radio" id="contact_ref" name="contact_method" value="email">
+        <label for="contact_ref">Email</label>
+        <input type="radio" id="contact_phone" name="contact_method" value="phone">
+        <label for="contact_phone">Phone</label>
+        <input type="radio" id="contact_none" name="contact_method" value="web">
+        <label for="contact_none">Web</label>
+        <br>
+    </fieldset>
+
+
+    <br>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+
+</body>
+</html>

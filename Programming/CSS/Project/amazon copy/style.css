@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    color: white;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ /* Amazon Logo */
+.nav-logo{
+    height:50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url(amazon.png);
+    background-size: cover;
+    height:50px;
+    width: 100%;
+}
+
+/** Hover Effect **/
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/** Box 2, Address **/
+
+#add1{
+    color:white;
+    font-size: 0.70rem;
+    margin-left: 20px;
+}
+
+#add2{
+    color:white;
+    font-size: 1rem;
+    
+}
+
+.add-icon{
+    display: flex;
+    align-items:center;
+}
+
+
+/** Box 3, Search Bar**/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width:620px;
+    height: 40px;
+    border-radius: 5px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+#search-select{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align:center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border:none;
+}
+
+
+#search-input{
+    width: 100%;
+    border:none;
+    font-size:1rem;
+}
+
+#search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.2rem;
+    background-color: #febd69;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color:#0f1111;
+
+}
+
+/** Box 4, Sign In **/
+.sign1{
+   font-size:0.7rem;
+}
+
+.sign2{
+    font-size:1rem;
+    font-weight: 700;
+}
+
+/** BOX 6, Cart **/
+.nav-cart{
+    font-size:25px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#cart{
+    font-size:10px;
+    font-weight: 700;
+    
+}
+
+
+

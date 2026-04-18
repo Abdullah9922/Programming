@@ -1,0 +1,10 @@
+div{
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    background-image: url(tree.jpg);
+    background-size: cover;
+    position: fixed;
+    right:0px;
+    top:50px;
+}

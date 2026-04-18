@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>HTML forms<hr></h1>
+    <form>
+        <br>
+        <label for="username">Your Name:</label>
+        <input name="username" id="username" type="text">
+
+        <br>
+        <label for="email">Your Email:</label>
+        <input name="email" id="email" type="text">
+
+    </form>
+
+    <form>
+        <h2>Input types<hr></h2>
+
+        <!-- Text input -->
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        <br>
+
+
+        <!-- Password input -->
+        <label for="pw">Password:</label>
+        <input type="password" name="password" id="pw">
+        <br>
+
+
+        <!-- Email input -->
+        <label for="em">Email:</label>
+        <input type="email" name="email" id="em" placeholder="your.email@example.com">
+        <br>
+
+
+        <!-- Number input -->
+        <label for="nm">Age:</label>
+        <input type="number" name="age" id="nm" placeholder="Full Name">
+        <br>
+
+
+        <!-- Date input -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" name="date_of_birth" id="dob">
+        <br>
+
+
+        <!-- Color input -->
+        <label for="clr">Favorite Color:</label>
+        <input type="color" name="favorite_color" id="clr" value="#ff0000">
+        <br>
+
+
+        <!-- File input -->
+        <label for="file">Upload File:</label>
+        <input type="file" name="file" id="file">
+        <br>
+
+
+
+        <!-- Radio buttons -->
+        <label>Gender:</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <br>
+
+        <!-- Checkbox -->
+        <label>Interests:</label>
+        <input type="checkbox" name="interests" id="sports" value="sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" name="interests" id="music" value="music">
+        <label for="music">Music</label>
+        <input type="checkbox" name="interests" id="travel" value="travel">
+        <label for="travel">Travel</label>
+
+
+
+        <!-- Range input -->
+        <br>
+        <label for="volume">Volume (0-100):</label>
+        <input type="range" name="volume" id="volume" min="0" max="100" value="50">
+
+
+
+        <!-- Submit button -->
+        <br>
+        <button type="submit">Submit</button>
+
+        <!-- Reset button -->  
+        <button type="reset">Reset</button>
+
+        <br>
+        <button type="button" >Click Me</button>
+
+    </form>
+
+
+    <form>
+        <br><br>
+        <fieldset>
+        
+            <legend>Personal Information</legend>
+
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" id="fname" required>
+            <br>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" id="lname">
+            <br>
+
+            <label for="email2">Email:</label>
+            <input type="email" name="email2" id="email2" placeholder="abc@example.com" required>
+        </fieldset>
+
+        <br><br>
+        <fieldset>
+            
+            <legend>Account Details</legend>
+
+            <label for="username2">Username:</label>
+            <input type="text" name="username2" id="username2" required>
+            <br>
+
+            <label for="password2">Password:</label>
+            <input type="password" name="password2" id="password2" required>
+
+        </fieldset>
+
+        <br>
+        <button type="submit">Register</button>
+        <button type="reset">Click to reset</button>
+
+    </form>
+    
+</body>
+</html>

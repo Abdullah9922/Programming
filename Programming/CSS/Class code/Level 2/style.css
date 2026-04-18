@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    color:blueviolet;
+
+    height: 300px;
+    width: 300px;
+
+    border-width: 5px;
+    border-color: gold;
+    border-style: dotted;
+}
+
+div{
+    height: 100px;
+    background-color: lightblue ;
+    width: 100px;
+}
+
+#div1{
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+
+    padding-left:10px;
+}
+
+#b1{
+    background-color: blue;
+    display: inline;
+    border: 100px;
+    margin:50px;
+}
+
+#b2{
+    background-color: green;
+    display: inline-block;
+    border: 100px;
+    margin:50px;
+}
+
+#b3{
+    background-color: red;
+    display: inline-block;
+    border: 100px;
+    margin:50px;
+}

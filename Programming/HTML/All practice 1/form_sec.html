@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form section</title>
+</head>
+
+<body>
+    <header>
+        <h1>Contact Form</h1>
+        <p>Please fill out the form below to get in touch with us.</p>
+    </header>
+
+    <nav>
+        <h2>Navigation</h2>
+        <a href="index.html" style="color: aqua;">Home</a>
+        <a href="my_contract.html" style="color: aqua;">Contract</a>
+        <a href="education.html" style="color: aqua;">Education</a>
+        <a href="form_sec.html" style="color: aqua;">Form</a>
+    </nav>
+
+    <main>
+        <form>
+            <br><br>
+            <fieldset>
+
+                <legend>Personal Information</legend>
+
+                <label for="fname">First Name:</label>
+                <input type="text" name="fname" id="fname" required>
+                <br>
+
+                <label for="lname">Last Name:</label>
+                <input type="text" name="lname" id="lname">
+                <br>
+
+                <label for="age">Age:</label>
+                <input type="number" name="age" id="age" min="0" max="120" required>
+                <br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name="dob" id="dob" required>
+                <br>
+
+                <label for="color">Favorite Color:</label>
+                <input type="color" name="color" id="color" value="#ff0000">
+                <br>
+            </fieldset>
+
+            <br><br>
+            <fieldset>
+
+                <legend>Contact Information</legend>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="abc@example.com" required>
+                <br>
+
+                <label for="phone2">Phone Number:</label>
+                <input type="tel" name="phone2" id="phone2" placeholder="+8801XXXXXXXXX" required>
+                <br>
+
+            </fieldset>
+
+            <br><br>
+            <fieldset>
+
+                <legend>Account Details</legend>
+
+                <label for="username2">Username:</label>
+                <input type="text" name="username2" id="username2" required>
+                <br>
+
+                <label for="password2">Password:</label>
+                <input type="password" name="password2" id="password2" required>
+                <br>
+
+            </fieldset>
+
+
+            <br><br>
+            <fieldset>
+
+                <legend>Others</legend>
+
+                <label for="interest">Interests:<br></label>
+                <input type="checkbox" name="interest" id="interest_gaming" value="gaming">
+                <label for="interest_gaming">Gaming</label>
+                <br>
+                <input type="checkbox" name="interest" id="interest_sports" value="sports">
+                <label for="interest_sports">Sports</label> 
+                <br>
+                <input type="checkbox" name="interest" id="interest_music" value="music">
+                <label for="interest_music">Music</label>   
+                <br>
+
+                <label for="contact_method">Preferred Contact Method:<br></label>
+                <input type="radio" name="contact_method" id="contact_email" value="email">
+                <label for="contact_email">Email</label>
+                <br>
+                <input type="radio" name="contact_method" id="contact_phone" value="phone">
+                <label for="contact_phone">Phone</label>
+                <br>
+
+            </fieldset>
+
+            <br>
+            <button type="submit">Register</button>
+            <button type="reset">Click to reset</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

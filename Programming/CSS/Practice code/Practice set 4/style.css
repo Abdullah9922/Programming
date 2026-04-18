@@ -1,0 +1,27 @@
+
+
+#b1{
+    background-color: rgba(255, 0, 0, 0.5);
+    height: auto;
+    
+}
+
+#b2{
+    background-color: rgba(0, 255, 0, 0.5);
+    height: auto;
+    
+}
+
+#b3{
+    background-color: rgba(0, 0, 255, 0.5);
+    height: auto;
+    
+}
+
+div{
+    height: 100px;
+    background-color: lightblue ;
+    width: 100px;
+    border: 20px solid blueviolet;
+    margin: 50px;
+}
