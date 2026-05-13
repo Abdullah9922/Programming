@@ -1,0 +1,27 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    color: brown;
+    text-align: center;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(155, 191, 11);
+    color: brown;
+    text-align: center;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+
+}
+
+.lite{
+    background-color: white;
+    color: black;
+    
+}

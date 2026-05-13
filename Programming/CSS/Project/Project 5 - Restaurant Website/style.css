@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+button{
+    padding: 10px 15px;
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
+
+
+nav {
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+    position: sticky;
+    top: 0;
+    margin-bottom: 32px;
+    background-color: white;
+    padding: 20px;
+    z-index: 50;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.company_logo {
+    background-image: url(images/logo.png);
+    background-size: cover;
+    width: 201px;
+    height: 76px;
+    top: 10px;
+    left: 117px;
+}
+
+.menu_icon {
+    background-image: url(icons/more.png);
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+    top: 36px;
+    left: 1288px;
+
+}
+
+
+
+.hiro{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hiro_con{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tag{
+    background-color: #149f39;
+    color: white;
+    padding: 5px 10px;
+    align-self: flex-start;
+    border-radius: 5px;
+}
+
+.hiro_con h1{
+    font-size: 72px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.explore_buttun{
+    background-color: #ffc066;
+    align-self: flex-start;
+}
+
+
+.features{
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.feature{
+    display: flex;
+    gap:20px;
+    transition: 0.2s ease-in-out;
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+.feature:hover{
+    transition: 0.2s ease-in-out;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+}
+
+.divider{
+    width: 1px;
+    background-color: rgba(1, 1, 1, 0.05);
+    margin: 20px 0;
+}
+
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    margin: 50px 0;
+    align-items: center;
+}
+
+.menu .tag{
+    align-self: center;
+    transition: 0.2s ease-in-out;
+}
+
+
+.grid-img{
+    border-radius: 10px;
+}
+
+.grid-img:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+}
+
+.grid{
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+        "I1 I1 I2 I3"
+        "I1 I1 I2 I7"
+        "I4 I5 I6 I7";
+}
+
+.item1{
+    grid-area: I1;
+}
+
+.item2{
+    grid-area: I2;
+}
+
+.item3{
+    grid-area: I3;
+}
+
+.item4{
+    grid-area: I4;
+}
+
+.item5{
+    grid-area: I5;
+}
+
+.item6{
+    grid-area: I6;
+}
+
+.item7{
+    grid-area: I7;
+}
+
+
+@media(max-width: 768px){
+    .hiro{
+        flex-direction: column;
+    }
+
+    .hiro_img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .hiro_img img{
+        width: 90%;
+        
+    }
+
+    .hiro_con{
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .hiro_con h1{
+        font-size: 36px;
+    }
+
+}
+
+

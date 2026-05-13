@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(88, 8, 8);
+    color: rgb(21, 100, 184);
+
+}
+
+button{
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.myclass{
+    background-color: rgb(8, 88, 60);
+    color: white;
+}
+
+.myid{
+    background-color: rgb(88, 26, 158);
+    color: rgb(168, 206, 14);
+}
+
+
+section{
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(19, 242, 60);
+    color: rgb(213, 13, 147);
+    border: 2px solid black;
+}

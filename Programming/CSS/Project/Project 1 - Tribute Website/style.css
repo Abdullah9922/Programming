@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    border: border-box;
+
+}
+
+.container{
+    background-color: #e5e5fd;
+    min-height: 100vh;
+    border: 10px solid #1d1e4c;
+
+}
+
+
+.first-sec {
+    height: 320px;
+    width: 900px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.big-pic {
+
+    height: 320px;
+    width: 300px;
+    background-image: url(apj.jpg);
+    background-size: cover;
+    border-radius: 50%;
+
+}
+
+.big-name {
+    padding-top: 235px;
+    height: 58px;
+    width: 547px;
+    font-size: 50px;
+    color: #1d1e4c;
+}
+
+#date {
+    font-size: 30px;
+    color: black
+}
+
+.title {
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.content {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+    display: block;
+    margin-left:10px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+#biog {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.bio {
+    height: 295px;
+    width: 900px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+
+}
+
+
+.last-sec {
+    text-align: end;
+}
