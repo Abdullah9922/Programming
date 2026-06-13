@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "switch_case_1": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

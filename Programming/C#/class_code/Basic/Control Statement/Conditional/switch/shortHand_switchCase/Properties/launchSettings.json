@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "shortHand_switchCase": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

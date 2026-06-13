@@ -1,0 +1,21 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Rr]Elease/
+x64/
+x86/
+bin/
+obj/
+
+# NuGet Packages
+packages/
+*.nupkg
+
+# Others
+*.log
+*.tmp

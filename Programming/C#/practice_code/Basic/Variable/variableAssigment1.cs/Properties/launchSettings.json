@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "variableAssigment1.cs": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

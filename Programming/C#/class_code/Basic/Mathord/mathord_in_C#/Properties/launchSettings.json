@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "mathord_in_C#": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "if_else_1": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

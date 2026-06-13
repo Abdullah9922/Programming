@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "For_Loop_1": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
