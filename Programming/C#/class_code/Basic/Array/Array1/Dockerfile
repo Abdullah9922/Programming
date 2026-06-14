@@ -12,19 +12,19 @@ WORKDIR /app
 FROM mcr.microsoft.com/dotnet/sdk:10.0-nanoserver-ltsc2022 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["firsProject.csproj", "."]
-RUN dotnet restore "./firsProject.csproj"
+COPY ["Array1.csproj", "."]
+RUN dotnet restore "./Array1.csproj"
 COPY . .
 WORKDIR "/src/."
-RUN dotnet build "./firsProject.csproj" -c %BUILD_CONFIGURATION% -o /app/build
+RUN dotnet build "./Array1.csproj" -c %BUILD_CONFIGURATION% -o /app/build
 
 # This stage is used to publish the service project to be copied to the final stage
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./firsProject.csproj" -c %BUILD_CONFIGURATION% -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "./Array1.csproj" -c %BUILD_CONFIGURATION% -o /app/publish /p:UseAppHost=false
 
 # This stage is used in production or when running from VS in regular mode (Default when not using the Debug configuration)
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "firsProject.dll"]
+ENTRYPOINT ["dotnet", "Array1.dll"]

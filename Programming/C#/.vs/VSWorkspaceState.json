@@ -1,9 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\class_code",
-    "\\class_code\\Hello_world\\hello.cs"
+    "\\practice_code",
+    "\\practice_code\\Library Management System"
   ],
-  "SelectedNode": "\\class_code\\Operator",
+  "SelectedNode": "\\practice_code\\Library Management System\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "firsProject": {
+    "Library Management System": {
       "commandName": "Project"
     },
     "Container (Dockerfile)": {

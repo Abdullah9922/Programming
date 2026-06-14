@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "FInd largest and smallest number": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
