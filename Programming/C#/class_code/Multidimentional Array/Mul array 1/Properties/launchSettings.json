@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Mul array 1": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

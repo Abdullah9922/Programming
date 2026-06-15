@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "exception_handeling_1": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

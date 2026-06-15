@@ -1,5 +1,5 @@
-﻿int index = 0;
-Book[] array_book = new Book[10];
+﻿//
+
 
 public class Book
 {
@@ -18,19 +18,25 @@ public class Book
 
     public void display_books()
     {
+        Console.WriteLine();
         Console.WriteLine($"Book id {id}.");
         Console.WriteLine($"Book name is {name}.");
         Console.WriteLine($"Book's author name is {author}");
         Console.WriteLine($"Book's availability is {abailability}");
+        Console.WriteLine();
     }
 }
 
 class Test
 {
+   
+    static Book[] array_book = new Book[10];
+    static int index = 0;
+
     public static void add_book()
-    {
+    {        
         int book_id = 0;
-        Console.Write("Enter book id: ");
+        Console.Write("\nEnter book id: ");
         book_id = Convert.ToInt16(Console.ReadLine());
 
         string book_name;
@@ -136,7 +142,7 @@ class Test
     {
         while (true)
         {
-            Console.WriteLine("Enter your choice: ");
+            Console.WriteLine("\n\nEnter your choice: ");
             Console.WriteLine("1. Add Book");
             Console.WriteLine("2. Show Books");
             Console.WriteLine("3. Search Book");
@@ -144,7 +150,7 @@ class Test
             Console.WriteLine("5. Return Book");
             Console.WriteLine("6. Exit");
 
-            Console.Write("Enter Your Choice: ");
+            Console.Write("\nEnter Your Choice: ");
             int choice = Convert.ToInt32(Console.ReadLine());
 
             switch (choice)
