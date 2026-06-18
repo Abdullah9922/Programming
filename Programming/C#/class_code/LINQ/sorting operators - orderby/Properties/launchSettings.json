@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "sorting operators - orderby": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

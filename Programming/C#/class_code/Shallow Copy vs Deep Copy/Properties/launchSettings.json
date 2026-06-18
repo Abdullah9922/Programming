@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Shallow Copy vs Deep Copy": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

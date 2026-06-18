@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Filtering with where": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Quantifiers all, any, contains": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
