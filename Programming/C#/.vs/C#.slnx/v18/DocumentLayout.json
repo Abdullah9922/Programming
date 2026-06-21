@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\Programming\\Programming\\C#\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Programming\\Programming\\C#\\practice_code\\Library Management System 3\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:practice_code\\Library Management System 3\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Programming\\Programming\\C#\\practice_code\\Library Management System 2\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:practice_code\\Library Management System 2\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Programming\\Programming\\C#\\practice_code\\School Managemnt System\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:practice_code\\School Managemnt System\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Programming\\Programming\\C#\\practice_code\\Student Result Management System\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:practice_code\\Student Result Management System\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Programming\\Programming\\C#\\practice_code\\School Managemnt System\\Program.cs",
               "RelativeDocumentMoniker": "practice_code\\School Managemnt System\\Program.cs",
               "ToolTip": "D:\\Programming\\Programming\\C#\\practice_code\\School Managemnt System\\Program.cs",
               "RelativeToolTip": "practice_code\\School Managemnt System\\Program.cs",
-              "ViewState": "AgIAAMMAAAAAAAAAAAAAANQAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-18T14:51:13.662Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Programming\\Programming\\C#\\practice_code\\Student Result Management System\\Program.cs",
+              "RelativeDocumentMoniker": "practice_code\\Student Result Management System\\Program.cs",
+              "ToolTip": "D:\\Programming\\Programming\\C#\\practice_code\\Student Result Management System\\Program.cs",
+              "RelativeToolTip": "practice_code\\Student Result Management System\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T17:16:30.724Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Programming\\Programming\\C#\\practice_code\\Library Management System 2\\Program.cs",
+              "RelativeDocumentMoniker": "practice_code\\Library Management System 2\\Program.cs",
+              "ToolTip": "D:\\Programming\\Programming\\C#\\practice_code\\Library Management System 2\\Program.cs",
+              "RelativeToolTip": "practice_code\\Library Management System 2\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAJMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T16:27:55.449Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Programming\\Programming\\C#\\practice_code\\Library Management System 3\\Program.cs",
+              "RelativeDocumentMoniker": "practice_code\\Library Management System 3\\Program.cs",
+              "ToolTip": "D:\\Programming\\Programming\\C#\\practice_code\\Library Management System 3\\Program.cs",
+              "RelativeToolTip": "practice_code\\Library Management System 3\\Program.cs",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAcwNcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T03:19:04.323Z",
               "IsPinned": true,
               "EditorCaption": ""
             }
