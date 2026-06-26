@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Single cust delegates": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -2,9 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\class_code",
-    "\\class_code\\Generics",
-    "\\class_code\\Generics\\Generic class 1"
+    "\\class_code\\Collections",
+    "\\class_code\\Collections\\Non Generic Collsections",
+    "\\class_code\\Collections\\Non Generic Collsections\\ArrayList 1"
   ],
-  "SelectedNode": "\\class_code\\Generics\\Generic class 1\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

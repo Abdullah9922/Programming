@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Multi Cast delegets": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
