@@ -2,9 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\class_code",
-    "\\class_code\\Collections",
     "\\class_code\\Collections\\Non Generic Collsections",
-    "\\class_code\\Collections\\Non Generic Collsections\\ArrayList 1"
+    "\\class_code\\Collections\\Non Generic Collsections\\ArrayList 1",
+    "\\class_code\\LINQ",
+    "\\class_code\\LINQ\\Quantifiers all, any, contains"
   ],
+  "SelectedNode": "\\class_code\\LINQ\\Quantifiers all, any, contains\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "A. Destroying Towers": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "B. Annoying the Ghost": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

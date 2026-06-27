@@ -19,3 +19,18 @@ packages/
 # Others
 *.log
 *.tmp
+
+# my own
+bin/
+obj/
+.vs/
+.vscode/
+
+*.user
+*.rsuser
+*.suo
+
+*.log
+
+.DS_Store
+Thumbs.db
