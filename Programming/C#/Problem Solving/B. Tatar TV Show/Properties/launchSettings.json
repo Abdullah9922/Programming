@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "B. Tatar TV Show": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

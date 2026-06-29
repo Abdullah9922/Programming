@@ -1,21 +1,21 @@
-﻿class Test
-{
+﻿using System.Diagnostics.CodeAnalysis;
 
-    public static int Sum(params int[] numbers)
+class Program
+{
+    public static int add(params int[] nums)
     {
         int sum = 0;
-        foreach (int i in numbers)
+        foreach (int i in nums)
         {
             sum += i;
         }
-        return sum;
+
+        return sum;                                             
     }
 
-    public static void Main(string[] args)
+    static void Main(string[] args)
     {
-        Console.WriteLine($"{Sum(10, 20)}");
-        Console.WriteLine($"{Sum(10, 20, 30)}");
-        Console.WriteLine($"{Sum(10, 20, 30, 40)}");
-        Console.WriteLine($"{Sum(10, 20, 1)}");
+        Console.WriteLine(Program.add(10, 20, 30, 50));
+        Console.ReadKey();
     }
 }

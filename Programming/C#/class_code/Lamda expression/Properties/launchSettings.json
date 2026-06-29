@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Lamda expression": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
