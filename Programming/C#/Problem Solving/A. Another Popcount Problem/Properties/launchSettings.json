@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "A. Another Popcount Problem": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -57,6 +57,9 @@
             {
                 Console.WriteLine("NO");
             }
+
+
+            Console.ReadKey();
         }
     }
 }
