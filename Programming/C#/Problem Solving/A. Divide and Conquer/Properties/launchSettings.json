@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "A. Divide and Conquer": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
