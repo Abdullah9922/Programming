@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "B. The 67th 6-7 Integer Problem": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

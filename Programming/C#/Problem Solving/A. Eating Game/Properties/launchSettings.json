@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "A. Eating Game": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

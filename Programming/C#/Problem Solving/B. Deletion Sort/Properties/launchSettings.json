@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "B. Deletion Sort": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
