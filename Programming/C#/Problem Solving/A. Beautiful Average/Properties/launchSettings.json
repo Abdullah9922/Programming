@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "A. Beautiful Average": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

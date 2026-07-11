@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "A. Blackslex and Password": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

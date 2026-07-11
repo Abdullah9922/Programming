@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "B. Party Monster": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
