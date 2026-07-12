@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "B. Reverse a Permutation": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

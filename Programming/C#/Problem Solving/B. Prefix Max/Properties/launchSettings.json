@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "B. Prefix Max": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

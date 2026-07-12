@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "A. DBMB and the Array": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

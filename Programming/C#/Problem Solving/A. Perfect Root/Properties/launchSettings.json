@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "A. Perfect Root": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
