@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "B. Palindrome, Twelve and Two Terms": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

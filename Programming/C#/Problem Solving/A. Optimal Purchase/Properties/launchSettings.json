@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "A. Optimal Purchase": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
