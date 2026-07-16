@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Problem A/Problem A.csproj" />
+  <Project Path="Problem B/Problem B.csproj" />
+</Solution>

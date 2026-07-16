@@ -1,36 +1,13 @@
-# Visual Studio
-.vs/
-*.user
-*.suo
-*.userprefs
+**/.vs
+**/bin
+**/obj
+**/*.user
+**/Logs/*
+**/node_modules
+**/*.xml
 
-# Build results
-[Dd]ebug/
-[Rr]Elease/
-x64/
-x86/
-bin/
-obj/
+Properties/
+Dockerfile
+.dockerignore
 
-# NuGet Packages
-packages/
-*.nupkg
 
-# Others
-*.log
-*.tmp
-
-# my own
-bin/
-obj/
-.vs/
-.vscode/
-
-*.user
-*.rsuser
-*.suo
-
-*.log
-
-.DS_Store
-Thumbs.db
