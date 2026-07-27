@@ -1,4 +1,6 @@
-﻿public class Solution
+﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+
+public class Solution
 {
     public static void Main(string[] args)
     {
@@ -9,24 +11,14 @@
         {
             n = int.Parse(Console.ReadLine());
 
-            var arr = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
+            var a = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
 
-            bool flag = true;
-            for (int i = 0; i < arr.Length; i++)
-            {
-                if(arr[i] == 1 && flag)
-                {
-                    flag = false;
-                    continue;
-                }
+            int ans = 0;
 
-                if(arr[i] == 1 && flag == false)
-                {
-                    arr[i] = 0;
-                }
-            }
+            for (int i = 0; i < n; i++) if (a[i] > 1) ans += a[i];
+            if (a[a.Length-1] == 1) ans++;
 
-            Console.WriteLine(arr.Sum());
+            Console.WriteLine(ans);
         }
     }
 }
