@@ -1,5 +1,5 @@
 // Add the Android APK or Play Store URL here when it is ready.
-const APP_DOWNLOAD_URL = "";
+const APP_DOWNLOAD_URL = "https://github.com/arik509/cloud-kitchen-mvp-arik/releases/download/v0.3.0-alpha/app-debug.apk";
 
 const toast = document.querySelector(".toast");
 let toastTimer;
