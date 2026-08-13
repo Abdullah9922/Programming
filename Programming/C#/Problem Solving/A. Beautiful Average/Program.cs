@@ -9,10 +9,7 @@
         {
             n = int.Parse((Console.ReadLine()));
 
-            int[] arr = Console.ReadLine()
-                .Split()
-                .Select(int.Parse)
-                .ToArray();
+            int[] arr = Console.ReadLine().Split().Select(int.Parse).ToArray();
 
             int max = arr.Max();
             int max2 = arr.OrderByDescending(x => x).Skip(1).First();

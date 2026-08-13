@@ -9,13 +9,9 @@ namespace Library_Management_System___Modified__
         private readonly BookManager _bookManager;
         private readonly MemberManager _memberManager;
         private readonly IFineCalculator _fineCalculator;
-
         private readonly List<BorrowRecord> _borrowRecords = new();
 
-        public Library(
-            BookManager bookManager,
-            MemberManager memberManager,
-            IFineCalculator fineCalculator)
+        public Library(BookManager bookManager,MemberManager memberManager,IFineCalculator fineCalculator)
         {
             _bookManager = bookManager;
             _memberManager = memberManager;

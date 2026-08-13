@@ -63,8 +63,8 @@ namespace Library_Management_System___Modified__
 
         public void DisplayBook()
         {
-            Console.WriteLine($"{ISBN} | {Title} | {Author} | {Category} | " +
-                              $"{(IsAvailable ? "Available" : "Borrowed")}");
+            Console.WriteLine();
+            Console.WriteLine($"{ISBN} | {Title} | {Author} | {Category} | " + $"{(IsAvailable ? "Available" : "Borrowed")}");
         }
     }
 }
