@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="A/A.csproj" />
+  <Project Path="B/B.csproj" />
+  <Project Path="C/C.csproj" />
+</Solution>
