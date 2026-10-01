@@ -9,7 +9,7 @@ while (tc-- > 0)
 
     for(int i=0; i<arr.Length; i++)
     {
-        arr[i] = s[i];
+        arr[i] = s[i] - '0';
     }
 
     Array.Sort(arr);
@@ -22,7 +22,7 @@ while (tc-- > 0)
         temp -= i;
         index = i;
 
-        while (temp >= arr[index] && index < arr.Length) index++;
+        while (temp >= arr[index] && index < s.Length-1) index++;
 
         index--;
         if(index >= 0) (arr[i], arr[index]) = (arr[index], arr[i]);
