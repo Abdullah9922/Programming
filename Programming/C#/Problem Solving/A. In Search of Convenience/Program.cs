@@ -1,14 +1,12 @@
-﻿
-int tc = int.Parse(Console.ReadLine());
+﻿int t = int.Parse(Console.ReadLine()!);
 
-int x, y, r;
-while (tc-- > 0)
+while (t-- > 0)
 {
-    string[] input = Console.ReadLine().Split();
-    x = int.Parse(input[0]);
-    y = int.Parse(input[1]);
-    r = int.Parse(input[2]);
+    int[] arr = Console.ReadLine()!.Split().Select(int.Parse).ToArray();
 
-    int sum = x + y;
-    Console.WriteLine(0 + " " + (sum - r >= 0 ? (sum-r) : (r-sum))  );
+    int x0 = arr[0];
+    int y0 = arr[1];
+    int r = arr[2];
+
+    Console.WriteLine($"{x0} {y0 + r}");
 }
