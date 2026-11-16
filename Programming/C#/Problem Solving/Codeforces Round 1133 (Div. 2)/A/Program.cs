@@ -8,18 +8,15 @@ while (tc-- > 0)
     n = int.Parse(input[0]);
     k = int.Parse(input[1]);
 
-    var arrA = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
-    var arrB = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
+    var a = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
+    var b = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
 
-    bool flag = true;
-    for(int i=0; i<arrB.Length; i++)
+    if (k % 2 == 0)
     {
-        if (arrB[i] == 0 || arrB[i] < k && arrB[i] % 2 != 0)
-        {
-            Console.WriteLine("NO");
-            flag = false;
-            break;
-        }
+        Console.WriteLine(a.Count(x => x == 0) <= b.Count(x => x == 0) ? "YES" : "NO");
     }
-    if(flag) Console.WriteLine("YES");
+    else
+    {
+        Console.WriteLine(b.Count(x => x == 0) <= a.Count(x => x == 0) ? "YES" : "NO");
+    }
 }
